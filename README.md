@@ -7,7 +7,7 @@ The project consists of two applications. The first application is a RESTful web
   - Copy ```/rest/target/rest.war``` and ```/web-app/target/app.war``` files to your ```tomcat/webapps``` folder
   - Start tomcat and open [http://localhost:8080/rest](http://localhost:8080/rest) for the rest module and [http://localhost:8080/app](http://localhost:8080/app) for the web-app module
 
-In demo h2 database is used. If you want use MySQL database:
+In demo h2 database is used. If you want to use MySQL database checkout ```mysql``` branch.
 - Open the file:  ```\dao\src\main\resources\db.properties``` and set the following parameters: 
 ``` 
 jdbc.dbname=name
