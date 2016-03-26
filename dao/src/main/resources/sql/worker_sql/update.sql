@@ -1,0 +1,1 @@
+UPDATE `workers` SET `did` = ?, `name` = ?, `birthday` = ?, `salary` = ? WHERE `id` = ?

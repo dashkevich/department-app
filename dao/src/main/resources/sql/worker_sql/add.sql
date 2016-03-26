@@ -1,0 +1,1 @@
+INSERT INTO `workers` (`did`, `name`, `birthday`, `salary`) VALUES (?, ?, ?, ?)

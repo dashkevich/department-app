@@ -1,0 +1,1 @@
+SELECT `id`, `name`, IFNULL(`salary`, 0) FROM `departments` LEFT JOIN (SELECT `did`, IFNULL(avg(salary),0) AS `salary` FROM `workers` GROUP BY `did`) AS S ON departments.id = S.did GROUP BY `id`;

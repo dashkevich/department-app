@@ -6,7 +6,6 @@
         <artifactId>department-app</artifactId>
         <groupId>dashkevich.apps</groupId>
         <version>1.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -14,23 +13,30 @@
     <packaging>jar</packaging>
 
     <dependencies>
+
         <dependency>
             <groupId>dashkevich.apps</groupId>
             <artifactId>dao</artifactId>
-            <version>1.0</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>4.1.6.RELEASE</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>2.0.42-beta</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
